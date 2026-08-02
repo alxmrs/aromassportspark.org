@@ -1,0 +1,37 @@
+name: pandoc-build
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Cache Pandoc Package
+      uses: actions/cache@v3
+      with:
+        path: pandoc.deb
+        key: pandoc-deb-3.6.3
+        restore-keys: |
+          pandoc-deb-
+
+    - name: Cache Pandoc RSS
+      uses: actions/cache@v3
+      with:
+        path: rss
+        key: pandoc-rss-${{ hashFiles('**/install') }}
+        restore-keys: |
+          pandoc-rss-
+
+    - name: Install Pandoc
+      run: bin/install
+
+    - name: Build Website
+      run: bin/build
+

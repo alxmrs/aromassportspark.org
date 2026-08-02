@@ -1,0 +1,2 @@
+header-includes:
+  - <meta property="og:image" content="/assets/Pandoc-Web-Preview.png">
