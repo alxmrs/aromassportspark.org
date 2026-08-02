@@ -61,11 +61,11 @@ ORDERED_POSTS=$({
 echo "$ORDERED_POSTS"
 # shellcheck disable=SC2086
 pandoc-rss -s \
-    -t "My Pandoc Blog" \
-    -d "A blog built with Pandoc" \
-    -l "https://pandoc.merose.com" \
+    -t "Aromas Community Park" \
+    -d "The lastest about the Aromas Sports Park." \
+    -l "https://park.aromas.town" \
     -f "%s/" \
     -c "MIT or CC BY-SA 4.0" \
-    -w "you@example.com (Kilgore Trout)" \
+    -w "aromassportspark@gmail.com (Aromas Community Center Foundation)" \
     -n "en-US" \
     $ORDERED_POSTS > "$DST/rss.xml"
