@@ -1,11 +1,10 @@
-# Pandoc Website Template
+# Aromas Community Park Website
 
-[![pages-deploy](https://github.com/alxmrs/pandoc-website-template/actions/workflows/pages.yml/badge.svg)](https://github.com/alxmrs/pandoc-website-template/actions/workflows/pages.yml)
-[![shellcheck](https://github.com/alxmrs/pandoc-website-template/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/alxmrs/pandoc-website-template/actions/workflows/shellcheck.yml)
+[//]: # ([![pages-deploy]&#40;https://github.com/alxmrs/pandoc-website-template/actions/workflows/pages.yml/badge.svg&#41;]&#40;https://github.com/alxmrs/pandoc-website-template/actions/workflows/pages.yml&#41;)
 
-A template to build static websites with [Pandoc](https://pandoc.org/). 
+[//]: # ([![shellcheck]&#40;https://github.com/alxmrs/pandoc-website-template/actions/workflows/shellcheck.yml/badge.svg&#41;]&#40;https://github.com/alxmrs/pandoc-website-template/actions/workflows/shellcheck.yml&#41;)
 
-Demo site: [pandoc.merose.com](https://pandoc.merose.com/).
+A static websites built with [Pandoc](https://pandoc.org/) for the Aromas community park.
 
 ## Use
 

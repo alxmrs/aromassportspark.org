@@ -1,7 +1,7 @@
-site_url: https://pandoc.merose.com
+site_url: https://park.aromas.town
 backend:
   name: github
-  repo: alxmrs/pandoc-website-template
+  repo: alxmrs/aromassportspark.org
   branch: main
   base_url: https://auth.merose.com
 media_folder: "assets/"
