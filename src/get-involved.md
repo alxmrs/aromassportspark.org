@@ -66,7 +66,7 @@ impact with the community for the park. If you are interested, contact ACCF at
 <li><img src="/assets/get-involved-partner-packard-foundation.webp" alt="Packard Foundation"></li>
 <li><img src="/assets/get-involved-partner-cfmc.webp" alt="Community Foundation for Monterey County"></li>
 <li><img src="/assets/get-involved-partner-ca-dept-parks.webp" alt="California Department of Parks and Recreation"></li>
-<li><img src="/assets/get-involved-partner-aromas-grange.webp" alt="Aromas Community Grange"></li>
+<li><img src="/assets/grange-logo.png" alt="Aromas Community Grange"></li>
 <li><img src="/assets/get-involved-partner-aromas-eagles-foe.webp" alt="Fraternal Order of Eagles -- Aromas Eagles"></li>
 </ul>
 
