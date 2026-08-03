@@ -1,9 +1,13 @@
 ---
-title: Our Story
+pagetitle: Our Story
 meta-description: The history of the Aromas Community Park
 ---
 
-![](/assets/story-abovewebp)
+::: page-header
+# Our Story
+:::
+
+![](/assets/story-abovewebp){.tile-photo}
 
 In 1994, the Aromas Community Center Foundation (ACCF) was created for the purpose of developing a community park in
 Aromas, California, a small town located in the Tri-County area of Monterey, San Benito, and Santa Cruz.  
@@ -16,7 +20,7 @@ Over the years, with the effort of the ACCF, local community, supporters of the 
 Foundation, the Community Foundation of Monterey County, and the Monterey County Redevelopment Agency, there have been
 several significant improvements made to the property over the years.
 
-![](/assets/story-trenchdigging.webp)
+![](/assets/story-trenchdigging.webp){.tile-photo}
 
 These include the construction of restrooms & septic system, parking lot, storage building, perimeter fencing, and
 irrigation infrastructure.   
@@ -28,10 +32,10 @@ Aromas Youth Soccer. In 2018, ACCF added a walking trail, and Dog Park with sepa
 The next big project is the construction of Pavilion, a space for the community to gather for special occasions and
 events.
 
-![](/assets/story-mowing.webp)
+![](/assets/story-mowing.webp){.tile-photo}
 
 As far as parks go, this one is unique. It’s an opportunity for small connected local communities to create and build
 their very own park!  It’s also been a uniquely giant challenge. So much good work has been done and and much more is
 needed. We need your help to make this park happen.
 
-- Aromas Community Center Foundation
+— _Aromas Community Center Foundation_

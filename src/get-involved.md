@@ -1,7 +1,11 @@
 ---
-title: Get Involved
+pagetitle: Get Involved
 meta-description: Support Aromas Community Park by donating, sponsoring a monument tile, or joining the board.
 ---
+
+::: page-header
+# Get Involved
+:::
 
 ## Donate
 
@@ -13,13 +17,15 @@ payable to:
 
 [Donate to the Aromas Community Park](#TODO){.donate-button}
 
-> Aromas Community Center Foundation
-> PO Box 792
-> Aromas, CA 95004
+::: address
+Aromas Community Center Foundation\
+PO Box 792\
+Aromas, CA 95004
+:::
 
 ## Purchase a Monument Donor Tile
 
-![](/assets/get-involved-monument-tile.webp)
+![](/assets/get-involved-monument-tile.webp){.tile-photo}
 
 Purchase a tile for the family, a loved one, a special person in the community, or leave a quote or
 inspirational saying. Email the Park: [aromassportspark@gmail.com](mailto:aromassportspark@gmail.com)
@@ -64,6 +70,7 @@ impact with the community for the park. If you are interested, contact ACCF at
 <li><img src="/assets/get-involved-partner-aromas-eagles-foe.webp" alt="Fraternal Order of Eagles -- Aromas Eagles"></li>
 </ul>
 
+::: tile-wall
 **Community Members**
 
 - Chris McDougall
@@ -131,3 +138,4 @@ impact with the community for the park. If you are interested, contact ACCF at
 - Dan Faurot-Daniels
 - Aromas Soccer Club
 - Joan Chu
+:::
