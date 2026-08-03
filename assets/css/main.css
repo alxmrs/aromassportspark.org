@@ -592,8 +592,36 @@ iframe {
 footer {
   background: var(--ink);
   color: var(--cream);
-  padding: 3rem max(1.25rem, calc((100vw - var(--content-w)) / 2)) 2rem;
+  padding: 3rem max(1.25rem, calc((100vw - var(--wide-w)) / 2)) 2rem;
   margin-top: 3.5rem;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 2.75rem;
+  margin-bottom: 2rem;
+}
+
+.footer-logo-badge {
+  flex: none;
+  width: 116px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--cream);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.footer-logo {
+  flex: none;
+  width: auto;
+  height: 92px;
+  margin: 0;
+  border-radius: 0;
 }
 
 footer ul {
@@ -602,7 +630,7 @@ footer ul {
   flex-wrap: wrap;
   gap: 2rem;
   padding: 0;
-  margin: 0 0 2rem;
+  margin: 0;
 }
 
 footer .footer-section {
