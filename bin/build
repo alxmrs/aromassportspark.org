@@ -45,6 +45,12 @@ wait
 
 status "Copying over assets"
 cp -r "$ASSETS" "$DST"
+# The CMS preview pane (see src/admin/preview.js) wraps draft content in the
+# real nav and footer by fetching them from here, so it can never drift from
+# what this build produces.
+mkdir -p "$DST/assets/partials"
+cp "$HEADER" "$DST/assets/partials/header.html"
+cp "$FOOTER" "$DST/assets/partials/footer.html"
 # Copies all non-source files to the destination, mirroring file structure.
 (cd "$SRC" && find . -type f -not -name "*.$SRC_EXT" -print | cpio -pdm "$DST")
 

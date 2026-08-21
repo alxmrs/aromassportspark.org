@@ -1,17 +1,28 @@
 site_url: https://park.aromas.town
+# To try the CMS against your working copy -- no GitHub login, nothing published --
+# uncomment the next line, then run `npx decap-server` alongside `bin/watch`.
+# local_backend: true
 backend:
   name: github
   repo: alxmrs/aromassportspark.org
   branch: main
   base_url: https://auth.merose.com
 media_folder: "assets/"
+public_folder: "/assets"
 collections:
   - name: "page"
     label: "Page"
     folder: "src/"
+    extension: "md"
+    format: "yaml-frontmatter"
     create: true
+    identifier_field: "pagetitle"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Browser tab title", name: "pagetitle", widget: "string",
+          hint: "Shown on the browser tab and in Google results. Not shown on the page itself." }
+      - { label: "Page heading", name: "title", widget: "string", required: false,
+          hint: "The big heading in the dark band at the top of the page. Leave this blank on the home page, which has its own hero instead." }
+      - { label: "Search description", name: "description-meta", widget: "string", required: false,
+          hint: "One or two sentences describing the page, shown under the link in Google results." }
       - { label: "Publish Date", name: "date", widget: "datetime", required: false }
-      - { label: "Description", name: "description-meta", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }

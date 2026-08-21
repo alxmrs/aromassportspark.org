@@ -1,6 +1,6 @@
 ---
 pagetitle: Aromas Community Park
-meta-description: A park for the Aromas Community
+description-meta: A park for the Aromas Community
 ---
 
 <div class="hero">

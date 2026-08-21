@@ -43,6 +43,29 @@ for more inspiration.
 > Note: if you change files outside of `$SRC` (i.e. in `template/` or `assets/`), you'll need to terminate and 
 > re-run this script.
 
+### Content manager
+
+Editors work in [Decap CMS](https://decapcms.org) at `/admin/`, configured in `src/admin/config.yml`.
+
+The preview pane is rendered by `src/admin/preview.js`, which loads the site's own CSS and webfonts into
+the preview iframe, wraps the draft in the real nav and footer, renders the page heading from the `title:`
+field the way Pandoc's title block does, and translates the Pandoc markdown extensions used here (fenced
+divs like `::: eyebrow`, attribute syntax like `{.tile-photo}`, and implicit figures). The nav and footer
+come from `assets/partials/`, which `bin/build` writes from `template/`, so they cannot drift from the
+published pages.
+
+> Note: the preview uses a stock CommonMark parser, so straight quotes stay straight where Pandoc would
+> curl them. Everything else matches the published markup.
+
+To try the CMS against your working copy -- no GitHub login, and nothing gets published -- uncomment
+`local_backend: true` in `src/admin/config.yml`, then:
+
+```sh
+bin/watch                         # rebuild public/ on every change
+npx decap-server                  # the local CMS backend, on port 8081
+python3 -m http.server -d public  # serve the site, then open /admin/
+```
+
 ### Deployment
 
 This template will publish the static site to [Github Pages](https://pages.github.com) via [Github Actions](http://github.com/actions).

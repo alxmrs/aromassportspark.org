@@ -1,7 +1,7 @@
 ---
 title: Get Involved
 pagetitle: Get Involved
-meta-description: Support Aromas Community Park by donating, sponsoring a monument tile, or joining the board.
+description-meta: Support Aromas Community Park by donating, sponsoring a monument tile, or joining the board.
 ---
 
 ## Donate

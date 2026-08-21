@@ -1,6 +1,6 @@
 ---
 pagetitle: Rentals
-meta-description: Rent the pavilion or sports field at Aromas Community Park for your next event.
+description-meta: Rent the pavilion or sports field at Aromas Community Park for your next event.
 title: Rentals
 ---
 
