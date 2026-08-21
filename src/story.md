@@ -1,11 +1,8 @@
 ---
 pagetitle: Our Story
+title: Our Story
 meta-description: The history of the Aromas Community Park
 ---
-
-::: page-header
-# Our Story
-:::
 
 ![](/assets/story-abovewebp){.tile-photo}
 

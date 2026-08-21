@@ -1,11 +1,8 @@
 ---
 pagetitle: The Park
+title: The Park
 meta-description: The facilities at Aromas Community Park -- sports field, dog park, walking trail, and pavilion.
 ---
-
-::: page-header
-# The Park
-:::
 
 ## Sports Field
 

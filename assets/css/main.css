@@ -54,7 +54,7 @@ body {
 nav,
 footer,
 .hero,
-.page-header,
+#title-block-header,
 .tile-wall,
 ul.our-impact {
   width: 100vw;
@@ -301,8 +301,9 @@ nav a:focus-visible {
 }
 
 /* ---------- Page header (inner pages) ---------- */
+/* Rendered by pandoc from the `title:` front-matter field. */
 
-.page-header {
+#title-block-header {
   position: relative;
   background: var(--ink);
   color: var(--cream);
@@ -310,12 +311,12 @@ nav a:focus-visible {
   margin-bottom: 2.75rem;
 }
 
-.page-header h1 {
+#title-block-header h1.title {
   color: var(--cream);
   margin: 0;
 }
 
-.page-header::after {
+#title-block-header::after {
   content: "";
   position: absolute;
   left: 0;
