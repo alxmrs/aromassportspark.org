@@ -18,7 +18,7 @@ Established 1994
 
 > Providing a safe, inclusive, and environmentally sustainable space for recreation, social gatherings, and cultural events.
 
-[Donate to the Aromas Community Park](#TODO){.donate-button}
+[Donate to the Aromas Community Park](https://square.link/u/Deg3hecR){.donate-button}
 
 </div>
 

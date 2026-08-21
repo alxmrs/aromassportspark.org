@@ -12,10 +12,10 @@ meta-description: Support Aromas Community Park by donating, sponsoring a monume
 The park requires financial help from many sources. ACCF is a 501(c)(3) nonprofit organization and your
 contribution is tax-deductible.
 
-Please click on the 'Donate' button to make a contribution through a credit card or PayPal, or make a check
+Please click on the 'Donate' button to make a contribution through Square, or make a check
 payable to:
 
-[Donate to the Aromas Community Park](#TODO){.donate-button}
+[Donate to the Aromas Community Park](https://square.link/u/Deg3hecR){.donate-button}
 
 ::: address
 Aromas Community Center Foundation\
