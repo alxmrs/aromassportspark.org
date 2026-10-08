@@ -7,7 +7,7 @@ Please contact us and we'll be happy to rent out parts of the park for you and t
 
 ## Pavilion Rental
 
-The Pavilion can be rented for large or small events. Contact the ACCF email here:aromassportspark@gmail.com
+The Pavilion can be rented for large or small events. Contact the ACCF email here: aromassportspark@gmail.com
 
 
 
