@@ -5,7 +5,6 @@ description-meta: A park for the Aromas Community
 
 <div class="hero">
 <div class="hero-scene" aria-hidden="true">
-<div class="hero-sun"></div>
 <div class="hero-hill hero-hill--back"></div>
 <div class="hero-hill hero-hill--front"></div>
 </div>
