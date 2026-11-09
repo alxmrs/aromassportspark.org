@@ -2,7 +2,6 @@
 pagetitle: Aromas Community Park
 description-meta: A park for the Aromas Community
 ---
-
 <div class="hero">
 <div class="hero-scene" aria-hidden="true">
 <div class="hero-hill hero-hill--back"></div>
@@ -15,7 +14,11 @@ Established 1994
 
 # Aromas Community Park
 
+![](/assets/poster-to-donate.jpg)
+
 > Providing a safe, inclusive, and environmentally sustainable space for recreation, social gatherings, and cultural events.
+>
+>
 
 [Donate to the Aromas Community Park](https://square.link/u/Deg3hecR){.donate-button}
 
